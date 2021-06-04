@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
-  <remote fetch="https://github.com/openembedded"  name="oe"/>
-  <remote fetch="https://github.com/agherzan"      name="rpi"/>
+  <remote fetch="https://git.yoctoproject.org/git"  name="yocto"/>
+  <remote fetch="https://github.com/openembedded"   name="oe"/>
+  <remote fetch="https://github.com/agherzan"       name="rpi"/>
+  <remote fetch="https://github.com/mendersoftware" name="mender"/>
 
   <project name="poky" remote="yocto" revision="dunfell" path="sources/poky"/>
   <project name="meta-openembedded" remote="oe" revision="dunfell" path="sources/meta-openembedded"/>
   <project name="meta-raspberrypi" remote="rpi" revision="dunfell" path="sources/meta-raspberrypi"/>
+
+  <project name="meta-mender" remote="mender" revision="dunfell" path="sources/meta-mender"/>
+  <project name="meta-mender-community" remote="mender" revision="dunfell" path="sources/meta-mender-community">
+    <copyfile dest="setup-environment" src="scripts/setup-environment"/>
+  </project>
 
 </manifest>
