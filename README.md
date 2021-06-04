@@ -22,9 +22,9 @@ The supported and tested boards are:
 
 #### Build project
 
-source setup-environment raspberrypi
 
-MACHINE=raspberrypi4 bitbake core-image-base
+	source setup-environment raspberrypi
+	MACHINE=raspberrypi4 bitbake core-image-base
 
 #### Yocto required
 
