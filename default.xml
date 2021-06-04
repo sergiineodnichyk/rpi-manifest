@@ -16,6 +16,6 @@
     <copyfile dest="setup-environment" src="scripts/setup-environment"/>
   </project>
   <project name="rpi-env" remote="sandox" revision="master" path="env">
-      <copyfile dest="templates" src="templates"/>
+      <linkfile dest="templates" src="templates"/>
   </project>
 </manifest>
