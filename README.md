@@ -1,12 +1,7 @@
 # YoctoRaspberryPI
 RaspberryPI distro build using Yocto(dunfell)
 
-Based on mender integration layer.
-Mender integration layer for Raspberry Pi family of boards. Note that this layer
-only contains templates, and the actual integration patches live in
-[meta-mender/meta-mender-raspberrypi](https://github.com/mendersoftware/meta-mender/tree/master/meta-mender-raspberrypi).
-
-
+Based on Mender integration layer for Raspberry Pi family of boards.
 The supported and tested boards are:
 
 - [Raspberry Pi 4 Model B](https://hub.mender.io/t/raspberry-pi-4-model-b/889/2)
