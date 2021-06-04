@@ -9,6 +9,4 @@
   <project name="meta-openembedded" remote="oe" revision="dunfell" path="sources/meta-openembedded"/>
   <project name="meta-raspberrypi" remote="rpi" revision="dunfell" path="sources/meta-raspberrypi"/>
 
-  <include name="scripts/mender.xml"/>
-
 </manifest>
