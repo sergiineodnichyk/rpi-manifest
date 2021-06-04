@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/openembedded"   name="oe"/>
   <remote fetch="https://github.com/agherzan"       name="rpi"/>
   <remote fetch="https://github.com/mendersoftware" name="mender"/>
-  <remote fetch="https://github.com"                name="githib"/>
+  <remote fetch="https://github.com"                name="github"/>
 
   <project name="poky" remote="yocto" revision="dunfell" path="sources/poky"/>
   <project name="meta-openembedded" remote="oe" revision="dunfell" path="sources/meta-openembedded"/>
